@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ericjamie.github.io/paper-lab/sitemap.xml

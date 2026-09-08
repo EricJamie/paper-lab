@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>关于 · Paper Lab</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+  :root { --red:#A02C2C; --sage:#C9CBC0; --ink:#1a1a1a; --gray:#333; --soft:#5f5f5b; --line:#e6e4e0; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,"Segoe UI","Microsoft YaHei",system-ui,sans-serif; color:var(--ink); background:#fff; margin:0; line-height:1.85; font-size:15.5px; }
+  .mono { font-family:"IBM Plex Mono",Consolas,"Courier New",monospace; }
+  .wrap { max-width:720px; margin:0 auto; padding:72px 24px 90px; }
+  .eyebrow { font-family:"IBM Plex Mono",Consolas,monospace; color:var(--red); font-size:12px; letter-spacing:3px; }
+  h1 { font-family:"IBM Plex Mono",Consolas,monospace; color:var(--red); font-size:29px; font-weight:600; margin:14px 0 18px; }
+  h2 { font-size:18px; margin:36px 0 8px; }
+  .hline { width:36px; height:2px; background:var(--red); margin:0 0 22px; }
+  p, li { color:var(--gray); }
+  a { color:var(--link,#8B3A3A); }
+  .nav { display:flex; justify-content:space-between; gap:16px; margin-top:48px; padding-top:22px; border-top:1px solid var(--line); font-family:"IBM Plex Mono",Consolas,monospace; font-size:13px; }
+  .nav a { text-decoration:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">ABOUT</div>
+  <h1>关于本站</h1>
+  <div class="hline"></div>
+  <p>Paper Lab 是个人论文中文导读站。把论文链接发给 Grok，按 <span class="mono">AGENT.md</span> 生成页面并更新目录。</p>
+
+  <h2>模板来源</h2>
+  <p>视觉、筛选条、列表 / 画廊 / 星图交互派生自 <a href="https://github.com/1parado/multi-agent-article">1parado/multi-agent-article</a>，许可为 <a href="LICENSE">CC BY-NC 4.0</a>。本站保留署名，未搬运原站的 11 篇论文导读。</p>
+
+  <h2>收录方式</h2>
+  <ul>
+    <li>在 Grok 对话里发送 arXiv / PDF / 标题</li>
+    <li>确认后写入一篇 <span class="mono">*_中文版.html</span>，并更新 <span class="mono">index.html</span></li>
+    <li>分类胶囊随主题调整，不固定用 FRAMEWORK / HARNESS</li>
+  </ul>
+
+  <h2>许可</h2>
+  <p>站点原创内容：CC BY-NC 4.0，须署名 1parado/multi-agent-article 与本仓。论文原文版权归原作者与出版方。</p>
+
+  <h2>更新记录</h2>
+  <p>2026-09-08 · 建立空壳（目录 / 规范 / 许可），等待第一篇论文。</p>
+
+  <div class="nav">
+    <a href="index.html">← 返回目录</a>
+    <a href="glossary.html">术语表</a>
+  </div>
+</div>
+</body>
+</html>
